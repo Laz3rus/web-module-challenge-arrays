@@ -156,9 +156,12 @@ Use the removeFlavorByName function below to do the following:
     HINT: You can use .splice() for this
 */
 
-function removeFlavorByName(/*your code here*/){
-    /*your code here*/
+function dupFunc(originalFlavors){
+    let newFlavors = [...originalFlavors];
+    /*code here*/
+    console.log(newFlavors);
 }
+console.log(dupFunc(originalflavors))
 
 
 
