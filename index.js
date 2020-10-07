@@ -90,9 +90,13 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(/*your code here*/){
-   /*your code here*/
+function removeLastFlavor(originalFlavors){
+    console.log(originalFlavors);
+    originalFlavors.pop();
+    console.log(originalFlavors);
+
 }
+removeLastFlavor(originalFlavors);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
