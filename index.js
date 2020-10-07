@@ -184,10 +184,16 @@ Use the filterByWord function below to do the following:
     DO NOT USE ADVANCED ARRAY METHODS (i.e. .filter) to solve this problem. 
 */
 
-function filterByWord(/*your code here*/){
-    /*your code here*/
-}
+function filterByWord(/*code here*/){
+    let newArr = []
+    for( let i = 0; i < Array.length; i++){
+        if(arr[i] === "d"){
+            //
+        }
+    }
+    /*code here*/
 
+}
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
 
